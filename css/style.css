@@ -1,0 +1,88 @@
+@charset 'utf-8';
+
+/* reset css */
+*{margin: 0; border: none; padding: 0;}
+a{color:#000000; text-decoration: none;}
+ol,ul,li{list-style: none;}
+img{vertical-align:top;}
+.clearfix::after{content: ''; display: block; clear: both;}
+.eng{font-family: 'Roboto';}
+
+.wrap{width: 100%; margin: 0 auto; box-sizing: border-box; font-family: 'Noto Sans KR', sans-serif;}
+p{font-size: 15px;}
+
+/* 헤더 */
+header{height: 123px; background-color: #fff;}
+.logo>a>img{width: 192px;position: absolute; left: 383px; top: 37px;}
+.row{float:right; display: flex; justify-content: space-between; align-items: center;}
+.t_nav{width: 392px; position: absolute; right: 387px; top: 26px; display: flex; justify-content: space-between; align-items: center;}
+.t_nav>li:nth-child(2)::before,.t_nav>li:nth-child(3)::before,.t_nav>li:nth-child(4)::before{content: '|'; margin-right: 25px;}
+.t_nav img{width: 32px;}
+.b_nav{width: 820px; position: absolute; right: 389px; top: 79px; display: flex; justify-content: space-between; align-items: center;}
+
+/* 색션 */
+.story,.fre,.drink{position: relative;}
+.str_img>img{width: 100%;}
+.str_txt{position: absolute; left: 431px; top: 23px;}
+.str_txt>p:nth-child(1){font-weight: 800;}
+.str_txt>h1{font-size: 40px; font-weight: 900;color: #0e347e; margin: 10px 0;}
+
+.fre_txt>h1,.var_txt>h1,.swt_txt>h1,.tas_txt>h1{font-size: 36px; font-weight: 900; line-height: 36px;}
+.fre_txt{position: absolute; left: 428px; top: 80px;}
+.fre_txt>span,.var_txt>span,.swt_txt>span,.tas_txt>span{display: inline-block; width: 38px; height: 2px; margin-top: 20px; text-indent: -99999px;}
+
+.fre{margin-bottom: 10px;}
+.fre_img>img{width: 100%;}
+
+.fre_txt>h1{color: #6b4d30;}
+.fre_txt>span{background-color: #6b4d30;}
+
+.drink{box-sizing: border-box; overflow: hidden; padding-bottom: 10px;}
+.drink>.container{display: flex; justify-content: space-between;}
+
+.var{float: left; padding-right: 5px; box-sizing: border-box; position: relative;}
+.var>.var_img{box-sizing: border-box;}
+.var_txt{position: absolute; left: 428px; top: 80px;}
+.var_txt>h1{color: #93a03d;}
+.var_txt>span{background-color: #93a03d;}
+
+.swt{float: right; padding-left: 5px; box-sizing: border-box; position: relative;}
+.swt>.swt_img{box-sizing: border-box;}
+.swt_txt{position: absolute; left: 48px; top: 80px;}
+.swt_txt>h1{color: #f1ae1d;}
+.swt_txt>span{background-color: #f1ae1d;}
+
+.str{box-sizing: border-box; padding-bottom: 10px; position: relative; height: 600px; overflow: hidden;}
+.str>.container{box-sizing: border-box;}
+
+.store{width: 510px; height: 294px; border: 2px solid #0e347e; float: left; position: relative; left: 388px; top: 0;}
+.store>.str_txt,.franchise>.fran_txt{position: absolute; left: 41px; top: 49px;}
+
+.store{margin-bottom: 7px;}
+.str_txt>h2, .fran_txt>h2{font-weight: 900; font-size: 30px; color: #0e347e; padding-bottom: 10px;}
+.str_txt>input{width: 327px; height: 39px; border: 2px solid #0e347e; margin-top: 100px; outline-style: none;}
+input::placeholder{padding: 0 20px;}
+.str_txt>img{width: 20px; position: absolute; right: 10px; top: 182px;}
+
+.franchise{width: 510px; height: 294px; border: 2px solid #0e347e; float: left; position: relative; left: -126px; top: 301px;}
+.franchise>.fran_img>img{height: 217px; position: absolute; right: 0; bottom: 0;}
+
+.tasty{float: right; position: absolute; right: -28px; top: 0; box-sizing: border-box;}
+.tas_img>img{width: 100%; padding-left: 10px; box-sizing: border-box;}
+.tas_txt{position: absolute; left: 48px; top: 80px;}
+.tas_txt>h1{color: #b47c55;}
+.tas_txt>span{background-color: #b47c55;}
+
+.sns{text-align: center; padding: 100px; border-bottom: 6px solid #f1ae1d;}
+.sns h3{font-weight: 900; font-size: 18px;}
+.sns ul{text-align: center;}
+.sns ul>li{display: inline-block; margin: 5px; color: #999;}
+.sns span{display: inline-block; width: 50px; height: 1px; margin: 50px 0; background-color: #0e347e; text-indent: -99999px;}
+.sns .sns_icon>img{text-align: center; width: 30px; margin: 0 10px;}
+
+/* 푸터 */
+footer{text-align: center; padding: 40px;}
+footer .ft_logo>img{width: 180px;}
+footer ul{color: #666; margin: 40px;}
+footer ul>li:nth-child(1){font-weight: 600;}
+footer p{font-weight: 800; color: #666;}
