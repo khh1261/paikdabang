@@ -19,6 +19,7 @@ header{height: 123px; background-color: #fff;}
 .t_nav>li:nth-child(2)::before,.t_nav>li:nth-child(3)::before,.t_nav>li:nth-child(4)::before{content: '|'; margin-right: 25px;}
 .t_nav img{width: 32px;}
 .b_nav{width: 820px; position: absolute; right: 389px; top: 79px; display: flex; justify-content: space-between; align-items: center;}
+.b_nav .sub_nav{display: none;}
 
 /* 색션 */
 .story,.fre,.drink{position: relative;}
